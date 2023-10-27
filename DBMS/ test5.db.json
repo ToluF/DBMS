@@ -1,0 +1,1 @@
+{" test5.db": {"student": {"Name": "student", "Column_name_types_pairs": [["name", "TEXT"], ["grade", "REAL"], ["piazza", "INTEGER"]], "Defaults": [], "Rows": [{"name": "James", "grade": 3.0, "piazza": 1}, {"name": "Yaxin", "grade": 3.0, "piazza": 2}, {"name": "Li", "grade": 3.0, "piazza": 2}]}}}
