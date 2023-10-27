@@ -23,3 +23,34 @@ This Python-scripted database management system is designed to handle and execut
 2. Run the script to initialize the database:
    ```bash
    python initialize_db.py schema.txt
+   
+3. The system will execute the query and display the results.
+
+## Supported SQL-like Commands
+- SELECT
+- INSERT INTO
+- UPDATE
+- DELETE FROM
+
+## File Structure
+- `initialize_db.py`: Initializes the database schema.
+- `database.py`: Executes SQL-like queries.
+- `schema.txt`: Define your database schema here.
+- `data/`: Directory for storing data tables.
+
+## Example Schema
+```sql
+CREATE TABLE employees (
+    employee_id INT,
+    first_name TEXT,
+    last_name TEXT,
+    department TEXT
+);
+```
+
+## Author
+- Tolu Fashina
+- ToluF
+
+Happy querying!
+```
